@@ -1,0 +1,126 @@
+/*
+Theme Name: H-Code Child
+Theme URI: http://wpdemos.themezaa.com/h-code
+Author: Themezaa
+Author URI: http://www.themezaa.com
+Description: Child theme for H-Code theme
+License: Themeforest Split Licence
+License URI: http://themeforest.net/licenses 
+Template: h-code
+Version: 1.1
+Text Domain: h-code-child
+*/
+html, body {
+    height: auto !important;
+}
+* {
+    letter-spacing: 0 !important;
+}
+.text-uppercase, h1, h2, h3, h4, h5, h6, .h1, .h2{
+  text-transform:inherit !important;
+}
+.container {
+    width: 100% !important;
+    max-width: 1250px;
+}
+.hcode-header-logo  img {
+    max-width: 80% !important;
+    max-height: inherit !important;
+    width: 100% !important;
+}
+.navbar > .nav-header-container > .row {
+    display: block;
+}
+.navbar > .nav-header-container .accordion-menu .navbar-collapse {
+    justify-content: center;
+}
+.hcode-header-logo {
+    text-align: center;
+}
+.navbar .navbar-nav > li > a, .navbar > .nav-header-container .search-cart-header a, .navbar > .nav-header-container .dropdown-header {
+    text-transform: capitalize;
+    letter-spacing: 0 !important;
+}
+.navbar .navbar-nav > li > a:hover{
+  border:none !important;
+}
+.navbar .navbar-nav > li > a{
+  border:none !important;
+}
+.banner-section .vc_custom_heading {
+    margin: 30px 0;
+}
+.about-section {
+    padding: 25px 0;
+}
+.portfolio-section .vc_inner.vc_row-fluid img {
+    width: 140px;
+    margin-bottom: 20px;
+}
+.contact-section img {
+    margin-bottom: 30px;
+}
+.contact-section, .portfolio-section {
+    padding: 25px 0;
+} 
+.nav-header-container .navbar-nav > li.current-menu-item > a {
+    border-bottom: 2px solid !important;
+}
+@media screen and (max-width:991px){
+  .navbar > .nav-header-container > .row {
+    display: flex;
+  }
+  .hcode-header-logo {
+    width: 100% !important;
+    text-align: left;
+  }
+  .hcode-header-logo  img {
+    width: auto !important;
+  }
+  .navbar .mobile-accordion-menu, .navbar > .nav-header-container .accordion-menu.mobile-accordion-menu .navbar-collapse {
+    background: #ffffff !important;
+  }
+  .navbar > .nav-header-container .accordion-menu .navbar-collapse {\
+    max-height: 100vh;
+    height: 100vh;
+  }
+  div#mega-menu {
+    padding-top: 20px;
+  }
+  .banner-section {
+    padding-top: 20px;
+  }
+}
+@media screen and (max-width:767px){
+  .about-section .wpb_column.vc_column_container.vc_col-sm-6 {
+    margin-bottom: 30px;
+  }
+  .portfolio-section .vc_row.wpb_row.vc_inner.vc_row-fluid .wpb_column.vc_column_container.vc_col-sm-6 {
+    width: 50% !important;
+    float: left;
+  }
+  .portfolio-section .vc_col-sm-4:nth-child(2) {
+    margin: 30px 0;
+  }
+  .portfolio-section .wpb_single_image.vc_align_left {
+    text-align: center;
+  }
+  .portfolio-section .vc_inner.vc_row-fluid img {
+    width: 110px;
+    margin: auto auto 20px;
+  }
+  .about-section1 .vc_col-sm-6:first-child {
+    order: 2;
+  }
+  .about-section.about-section2 {
+    padding-top: 0;
+  }
+  .banner-section h2.vc_custom_heading {
+    font-size: 20px !important;
+    margin: 10px 0;
+    
+  }
+  .navbar .navbar-nav > li > a, .search-cart-header .subtitle {
+    font-size: 18px;
+  }
+}
